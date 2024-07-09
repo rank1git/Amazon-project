@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+    <body>
+      <script>
+        /* const product = {
+          name: "hat",
+          price: 1599,
+        };
+        console.log(product);
+        console.log(product.name);
+        console.log(product.price);
+
+        product.name = "barnacles";
+        console.log(product);
+
+        product.color = "black";
+        console.log(product);
+        delete product.name;
+        console.log(product);
+
+        product.name = "wannanannapingun";
+        console.log(product);
+        console.log(product["name"]);
+
+        product2 = {
+          name: "shorts",
+          "delivery-time": "2 days",
+          rating: {
+            stars: 4.2,
+            ratings: 312,
+          },
+          fun: function functionUno() {
+            console.log("function inside a function");
+          },
+        };
+        console.log(product2.rating.ratings);
+        product2.fun();
+
+        // JSON does not support functions so they will not show up in the console
+        console.log(JSON.stringify(product2));
+
+        const jsonString = JSON.stringify(product2);
+        console.log(JSON.parse(jsonString)); */
+
+        console.log("hole".length);
+        console.log("hole".toUpperCase());
+
+        const obj1 = {
+          message: "hello",
+        };
+        const obj2 = obj1;
+        obj1.message = "God is good!";
+        console.log(obj1);
+
+        const obj3 = {
+          message: "God is good!",
+        };
+
+        console.log(obj3 === obj1); // false because they point to different objects in memory
+        console.log(obj2 === obj1); // true because they point to the same object in memory
+
+        const obj4 = {
+          message: "God is good!",
+          price: 3499,
+        };
+        // const message = obj4.message;
+        // this is equal to the line above and is a shortcut called destructuring
+        const { message, price } = obj4;
+        console.log(message);
+        console.log(price);
+
+        // shorthand for objects
+        // if the property and the var name are the same we can type it once
+        const obj5 = {
+          // message: message
+          message,
+          method: function fun1() {
+            console.log("method");
+          },
+        };
+        console.log(obj5);
+        obj5.method();
+      </script>
+    </body>
+  </head>
+</html>

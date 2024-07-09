@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booleans</title>
+    <body>
+      <!-- falsy values are: false, 0, '', NaN, undefined, and null -->
+      <!-- all other values not on this list are truthy -->
+      <script>
+        console.log(5 == "5.00");
+        console.log(5 === "5.00");
+
+        if (false) {
+          console.log("annjlasd");
+        } else console.log("false!!!");
+
+        if (5) {
+          console.log("truthy");
+        }
+
+        // things used instead of if-statements
+
+        // ternary operator variable_to_test ? if 'truthy' do this : if 'falsy' do this;
+        const result = 0 ? "not a falsy value" : "not a truthy value";
+        console.log(result);
+
+        // guard operator
+        false && console.log("hello");
+
+        // will print 'hello' since 5 is truthy and will assign 'hello' to message
+        const message = 5 && "hello";
+        console.log(message);
+
+        // default operator
+        /* will print 'EUR' since EUR is truthy, but if something replaced EUR and was falsy then 'USD' would be assigned to currency */
+        const currency = "EUR" || "USD";
+        console.log(currency);
+      </script>
+    </body>
+  </head>
+</html>
