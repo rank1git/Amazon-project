@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9h</title>
+    <body>
+      <input class="input" type="text" onkeyup="key(event);" />
+      <p class="chars"></p>
+      <script>
+        function key(event) {
+          const input = document.querySelector('.input');
+          document.querySelector('.chars').innerHTML = input.value;
+        }
+      </script>
+    </body>
+  </head>
+</html>

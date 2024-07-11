@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size: 30px;
+}
+button {
+  background-color: grey;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 16px;
+}
+.math-operator {
+  background-color: orange;
+}
