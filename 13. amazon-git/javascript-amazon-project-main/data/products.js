@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-const products = [
+export const products = [
 	{
 		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex012',
 		image: 'images/products/backpack.jpg',
