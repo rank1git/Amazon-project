@@ -1,6 +1,61 @@
 // eslint-disable-next-line no-unused-vars
 const products = [
 	{
+		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex012',
+		image: 'images/products/backpack.jpg',
+		name: 'Black Utility Backpack',
+		rating: {
+			stars: 4.5,
+			count: 87,
+		},
+		priceCents: 1090,
+		keywords: ['socks', 'sports', 'apparel'],
+	},
+	{
+		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex01b',
+		image: 'images/products/umbrella.jpg',
+		name: 'Large Green Umbrella',
+		rating: {
+			stars: 4.5,
+			count: 87,
+		},
+		priceCents: 1090,
+		keywords: ['socks', 'sports', 'apparel'],
+	},
+	{
+		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex01c',
+		image: 'images/products/iPhone-14-Case.jpg',
+		name: 'iPhone 14 Case/iPhone 13 Case',
+		rating: {
+			stars: 4.5,
+			count: 127,
+		},
+		priceCents: 1699,
+		keywords: ['iPhone-case', 'magnetic-case', 'iphone-14-case'],
+	},
+	{
+		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex01w',
+		image: 'images/products/green-40oz-tumbler.jpg',
+		name: 'Contigo Streeterville 40oz Tumbler',
+		rating: {
+			stars: 4.5,
+			count: 185,
+		},
+		priceCents: 2499,
+		keywords: ['insulated-tumblers', 'tumblers', 'sports-water-bottles'],
+	},
+	{
+		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex01v',
+		image: 'images/products/Candle-Warmer.jpg',
+		name: 'Candle Warmer Lamp with Timer Dimmer Adjustable Height',
+		rating: {
+			stars: 5,
+			count: 210,
+		},
+		priceCents: 3299,
+		keywords: ['candle-warmer', 'electric', 'home'],
+	},
+	{
 		id: 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',
 		image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
 		name: 'Black and Gray Athletic Cotton Socks - 6 Pairs',
