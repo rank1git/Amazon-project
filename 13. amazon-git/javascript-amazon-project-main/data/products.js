@@ -9,7 +9,7 @@ export const products = [
 			count: 87,
 		},
 		priceCents: 1090,
-		keywords: ['socks', 'sports', 'apparel'],
+		keywords: ['backpack', 'school', 'laptop-bag'],
 	},
 	{
 		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex01b',
@@ -20,7 +20,7 @@ export const products = [
 			count: 87,
 		},
 		priceCents: 1090,
-		keywords: ['socks', 'sports', 'apparel'],
+		keywords: ['umbrella', 'rain', 'green'],
 	},
 	{
 		id: 'h6cb3gx-2fls-cyee-9ep5-bnhutz4zex01c',
